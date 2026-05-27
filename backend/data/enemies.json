@@ -18,7 +18,7 @@
           "health": 40,
           "danger": "Низкая",
           "durability": "Слабая",
-          "description": "Мелкий разведчик-падальщик. Опасен только в стае — сигнализирует о Helldivers более крупным сородичам.",
+          "description": "Мелкий разведчик-падальщик. Опасен только в стае — выпускает ферамоны, сигнализирующие о десантниках своим сородичам.",
           "image": "dist/assets/Scavenger.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Scavenger",
           "durabilityPercent": 0.2

@@ -12,17 +12,13 @@ export async function listMessages() {
 
 export async function sendMessage({ user, text }) {
   await delay()
-
   if (!user) {
     return { ok: false, error: 'Для передачи сообщения нужно войти в систему.' }
   }
-
   const cleanText = String(text || '').trim()
-
   if (!cleanText) {
     return { ok: false, error: 'Сообщение не может быть пустым.' }
   }
-
   if (cleanText.length > 600) {
     return { ok: false, error: 'Сообщение слишком длинное. Максимум 600 символов.' }
   }
@@ -34,8 +30,6 @@ export async function sendMessage({ user, text }) {
     text: cleanText,
     createdAt: new Date().toISOString()
   }
-
   messagesStore.push(message)
-
   return { ok: true, message }
 }

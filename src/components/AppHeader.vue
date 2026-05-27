@@ -6,16 +6,20 @@
           <path d="M3 6h18M3 12h18M3 18h18" />
         </svg>
       </button>
-      <img :src="diverIcon" alt="" class="emblem" />
     </div>
 
     <div class="hdr-center">
-      <span class="terminal-line">// СЕКТОР SE-01 ::</span>
-      <h1 class="title">{{ title }}</h1>
+      <img :src="diverIcon" alt="" class="emblem" />
+
+      <div class="hdr-title-block">
+        <span class="terminal-line">// СЕКТОР SE-01 ::</span>
+        <h1 class="title">{{ title }}</h1>
+      </div>
+
+      <img :src="diverIcon" alt="" class="emblem" />
     </div>
 
     <div class="hdr-side right">
-      <img :src="diverIcon" alt="" class="emblem" />
       <div v-if="user" class="user-block">
         <div class="user-name">{{ user.nickname }}</div>
         <div class="user-rank">{{ user.rank || 'без звания' }}</div>
@@ -52,17 +56,31 @@ defineEmits(['open-auth', 'toggle-sidebar', 'logout'])
 }
 .hdr-side { display: flex; align-items: center; gap: 0.8rem; }
 .hdr-side.right { justify-content: flex-end; }
-.hdr-center { text-align: center; }
+.hdr-center {
+  display: grid;
+  grid-template-columns: 32px minmax(260px, 520px) 32px;
+  align-items: center;
+  justify-content: center;
+  column-gap: 0.55rem;
+  text-align: center;
+}
+.hdr-title-block {
+  min-width: 0;
+  width: 100%;
+}
 .terminal-line { display: block; font-size: 0.7rem; opacity: 0.6; }
 .title {
-  display: inline-flex;
-  align-items: baseline;
+  display: block;
+  width: 100%;
   margin: 0;
   font-size: 1.15rem;
   color: var(--gold);
+  text-align: center;
+  white-space: nowrap;
 }
 .emblem {
-  height: 28px; width: 28px;
+  height: 28px;
+  width: 28px;
   object-fit: cover;
   border-radius: 50%;
   border: 1px solid var(--gold-deep);

@@ -1,0 +1,78 @@
+{
+  "source": "Helldivers Wiki / Fandom",
+  "sourceUrl": "https://helldivers.fandom.com/wiki/Category:Grenades_(Helldivers_2)",
+  "items": [
+    {
+      "id": "g-12-high-explosive",
+      "name": "G-12 Фугасная",
+      "originalName": "G-12 High Explosive",
+      "damage": 400,
+      "radius": 6,
+      "detonationTime": 4,
+      "specialTraits": ["Осколочный взрыв", "Стандартный таймер"],
+      "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/7/76/G-12_High_Explosive.png",
+      "description": "Стандартная осколочно-фугасная граната. Универсальное решение для скоплений врага.",
+      "sourceUrl": "https://helldivers.fandom.com/wiki/G-12_High_Explosive"
+    },
+    {
+      "id": "g-6-frag",
+      "name": "G-6 Осколочная",
+      "originalName": "G-6 Frag",
+      "damage": 250,
+      "radius": 5,
+      "detonationTime": 4,
+      "specialTraits": ["Осколки", "Лёгкая"],
+      "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/25/G-6_Frag.png",
+      "description": "Лёгкая осколочная граната с широким полем поражения по пехоте.",
+      "sourceUrl": "https://helldivers.fandom.com/wiki/G-6_Frag"
+    },
+    {
+      "id": "g-16-impact",
+      "name": "G-16 Ударная",
+      "originalName": "G-16 Impact",
+      "damage": 400,
+      "radius": 4,
+      "detonationTime": 0.1,
+      "specialTraits": ["Мгновенный взрыв при ударе", "Без таймера"],
+      "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/d/d6/G-16_Impact.png",
+      "description": "Ударная граната — взрывается при первом контакте. Без задержки таймера.",
+      "sourceUrl": "https://helldivers.fandom.com/wiki/G-16_Impact"
+    },
+    {
+      "id": "g-10-incendiary",
+      "name": "G-10 Зажигательная",
+      "originalName": "G-10 Incendiary",
+      "damage": 50,
+      "radius": 4,
+      "detonationTime": 3,
+      "specialTraits": ["Огненная лужа", "Поджигает врагов"],
+      "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/9/9e/G-10_Incendiary.png",
+      "description": "Зажигательная граната создаёт лужу горящего напалма. Эффективна против биологических врагов.",
+      "sourceUrl": "https://helldivers.fandom.com/wiki/G-10_Incendiary"
+    },
+    {
+      "id": "g-3-smoke",
+      "name": "G-3 Дымовая",
+      "originalName": "G-3 Smoke",
+      "damage": 0,
+      "radius": 8,
+      "detonationTime": 3,
+      "specialTraits": ["Дымовая завеса", "Без урона"],
+      "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/3/35/G-3_Smoke.png",
+      "description": "Создаёт плотную дымовую завесу. Незаменима для тактических отступлений и скрытных манёвров.",
+      "sourceUrl": "https://helldivers.fandom.com/wiki/G-3_Smoke"
+    },
+    {
+      "id": "g-23-stun",
+      "name": "G-23 Шоковая",
+      "originalName": "G-23 Stun",
+      "damage": 0,
+      "radius": 7,
+      "detonationTime": 2,
+      "specialTraits": ["Оглушение", "Без урона"],
+      "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/9/91/G-23_Stun.png",
+      "description": "Электрошоковая граната. Парализует крупных врагов на несколько секунд.",
+      "sourceUrl": "https://helldivers.fandom.com/wiki/G-23_Stun"
+    }
+  ]
+}

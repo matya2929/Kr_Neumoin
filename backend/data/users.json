@@ -1,0 +1,26 @@
+[
+  {
+    "id": 1,
+    "nickname": "Демократ-001",
+    "rank": "Генерал Демократии",
+    "level": 50,
+    "email": "democracy@super-earth.gov",
+    "password": "freedom2184"
+  },
+  {
+    "id": 2,
+    "nickname": "Адский Десантник",
+    "rank": "Сержант",
+    "level": 25,
+    "email": "diver@helldivers.mil",
+    "password": "managed"
+  },
+  {
+    "id": 3,
+    "nickname": "СупЗем",
+    "rank": "Рядовой",
+    "level": 5,
+    "email": "private@se.gov",
+    "password": "liberty"
+  }
+]

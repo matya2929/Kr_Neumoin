@@ -1,0 +1,245 @@
+/* ============================================================
+   Helldivers 2 Information Hub — global theme
+   Чёрный + тёмно-золотой + холодный стальной графит
+   ============================================================ */
+
+:root {
+  --bg-0:        #0a0c10;
+  --bg-1:        #0f1218;
+  --bg-2:        #151922;
+  --bg-3:        #1c2230;
+  --surface:     #11151c;
+  --surface-alt: #181d27;
+  --border:      #2a3242;
+  --border-strong:#3a455a;
+
+  --text:        #e6e3d6;
+  --text-muted:  #a4a190;
+  --text-faint:  #6e6c5e;
+
+  --gold:        #f5c518;
+  --gold-2:      #e0b113;
+  --gold-deep:   #8a6a07;
+  --gold-glow:   rgba(245,197,24,0.22);
+
+  --steel:       #4f6483;
+  --steel-blue:  #5a7daa;
+
+  --danger:      #d4453a;
+  --success:     #74b04a;
+
+  --font-display: 'Oswald', 'Inter', system-ui, sans-serif;
+  --font-body:    'Inter', system-ui, sans-serif;
+  --font-mono:    'JetBrains Mono', ui-monospace, monospace;
+
+  --radius:    2px;
+  --radius-lg: 4px;
+
+  --shadow-card:  0 2px 0 rgba(0,0,0,0.4), 0 8px 32px rgba(0,0,0,0.45);
+  --transition:   180ms ease-out;
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body, #app {
+  margin: 0;
+  padding: 0;
+  background: var(--bg-0);
+  color: var(--text);
+  font-family: var(--font-body);
+  font-size: 15px;
+  line-height: 1.55;
+  min-height: 100vh;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Subtle scanline grain on the entire app — terminal aesthetic */
+#app {
+  position: relative;
+  background:
+    radial-gradient(1200px 700px at 80% -10%, rgba(245,197,24,0.05), transparent 60%),
+    radial-gradient(900px 500px at -10% 110%, rgba(90,125,170,0.07), transparent 60%),
+    var(--bg-0);
+}
+#app::before {
+  content:"";
+  position: fixed; inset: 0;
+  pointer-events: none;
+  background-image: repeating-linear-gradient(
+    to bottom,
+    transparent 0,
+    transparent 3px,
+    rgba(255,255,255,0.012) 3px,
+    rgba(255,255,255,0.012) 4px
+  );
+  z-index: 1;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-display);
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin: 0 0 .6em 0;
+  color: var(--gold);
+}
+
+h1 { font-size: 1.95rem; }
+h2 { font-size: 1.4rem; }
+h3 { font-size: 1.1rem; color: var(--text); }
+h4 { font-size: 0.95rem; color: var(--text-muted); letter-spacing: 0.12em; }
+
+p { margin: 0 0 .8em 0; }
+
+a {
+  color: var(--gold);
+  text-decoration: none;
+  transition: color var(--transition);
+}
+a:hover { color: var(--text); }
+
+button {
+  font-family: var(--font-display);
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid var(--gold);
+  background: transparent;
+  color: var(--gold);
+  padding: 0.65em 1.2em;
+  cursor: pointer;
+  font-size: 0.85rem;
+  font-weight: 600;
+  border-radius: var(--radius);
+  transition: all var(--transition);
+}
+button:hover:not(:disabled) {
+  background: var(--gold);
+  color: #000;
+  box-shadow: 0 0 0 1px var(--gold), 0 0 18px var(--gold-glow);
+  transform: translateY(-1px);
+}
+button:disabled { opacity: 0.4; cursor: not-allowed; }
+button.primary {
+  background: var(--gold);
+  color: #000;
+}
+button.primary:hover:not(:disabled) {
+  background: #000;
+  color: var(--gold);
+  border-color: var(--gold);
+  box-shadow: 0 0 0 1px var(--gold), 0 0 18px var(--gold-glow);
+}
+button.ghost {
+  background: #000;
+  border-color: var(--gold-deep);
+  color: var(--gold);
+}
+button.ghost:hover:not(:disabled) {
+  background: var(--gold);
+  color: #000;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 1px var(--gold), 0 0 18px var(--gold-glow);
+}
+
+input, select, textarea {
+  font-family: var(--font-mono);
+  background: var(--bg-1);
+  color: var(--text);
+  border: 1px solid var(--border-strong);
+  border-radius: var(--radius);
+  padding: 0.6em 0.8em;
+  font-size: 0.9rem;
+  width: 100%;
+  transition: border-color var(--transition), box-shadow var(--transition);
+}
+input:focus, select:focus, textarea:focus {
+  outline: none;
+  border-color: var(--gold);
+  box-shadow: 0 0 0 1px var(--gold), 0 0 12px var(--gold-glow);
+}
+
+::selection { background: var(--gold); color: #000; }
+
+/* ====== Card ====== */
+.card {
+  background: var(--surface);
+  border: 1px solid var(--border);
+  border-top: 1px solid var(--border-strong);
+  border-radius: var(--radius-lg);
+  padding: 1.2rem;
+  position: relative;
+  transition: border-color var(--transition), transform var(--transition), box-shadow var(--transition);
+}
+.card:hover {
+  border-color: var(--gold-deep);
+  transform: translateY(-2px);
+  box-shadow: var(--shadow-card);
+}
+
+/* ====== Tag / chip ====== */
+.tag {
+  display: inline-block;
+  font-family: var(--font-mono);
+  font-size: 0.72rem;
+  padding: 2px 8px;
+  border: 1px solid var(--border-strong);
+  color: var(--text-muted);
+  border-radius: var(--radius);
+  letter-spacing: 0.06em;
+}
+.tag.gold {
+  border-color: var(--gold-deep);
+  color: var(--gold);
+  background: rgba(245,197,24,0.07);
+}
+.tag.danger { border-color: var(--danger); color: var(--danger); }
+
+/* ====== Stat row ====== */
+.stat {
+  display: flex; justify-content: space-between; gap: 1rem;
+  padding: 4px 0;
+  border-bottom: 1px dashed rgba(255,255,255,0.04);
+  font-size: 0.85rem;
+}
+.stat:last-child { border-bottom: none; }
+.stat .label { color: var(--text-muted); text-transform: uppercase; font-size: 0.7rem; letter-spacing: 0.1em; font-family: var(--font-mono); }
+.stat .value { color: var(--text); font-family: var(--font-mono); font-weight: 500; }
+
+/* ====== Animations ====== */
+@keyframes fadeIn { from { opacity:0; transform:translateY(6px);} to { opacity:1; transform:none;} }
+.fade-in { animation: fadeIn .35s ease-out both; }
+
+/* ====== Utility ====== */
+.terminal-line { font-family: var(--font-mono); color: var(--gold); font-size: 0.82rem; letter-spacing: 0.05em; }
+.muted { color: var(--text-muted); }
+.divider {
+  height: 1px;
+  background: linear-gradient(90deg, transparent, var(--gold-deep), transparent);
+  margin: 1.2rem 0;
+}
+
+/* ====== Modal ====== */
+.modal-overlay {
+  position: fixed; inset: 0;
+  background: rgba(0,0,0,0.75);
+  backdrop-filter: blur(4px);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 1000;
+  animation: fadeIn .2s ease-out;
+}
+.modal {
+  width: min(440px, 92vw);
+  background: var(--surface);
+  border: 1px solid var(--gold-deep);
+  border-radius: var(--radius-lg);
+  padding: 1.6rem;
+  position: relative;
+  box-shadow: 0 0 0 1px var(--bg-0), 0 30px 60px rgba(0,0,0,0.6);
+  animation: fadeIn .25s ease-out;
+}
+
+/* responsive */
+@media (max-width: 800px) {
+  h1 { font-size: 1.55rem; }
+  h2 { font-size: 1.2rem; }
+}

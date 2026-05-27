@@ -1,0 +1,243 @@
+{
+  "source": "Helldivers Wiki / Fandom",
+  "sourceUrl": "https://helldivers.fandom.com/wiki/Enemies_(Helldivers_2)",
+  "factions": {
+    "terminids": {
+      "label": "Терминиды",
+      "originalName": "Terminids",
+      "description": "Раса гигантских инсектоидов, сбежавших с ферм Элемента-710. Двигаются стаями, давят массой и ближним боем. Объявлены Супер-Землёй фашистской фракцией.",
+      "icon": "factions/terminids.png",
+      "sourceUrl": "https://helldivers.fandom.com/wiki/Terminids",
+      "enemies": [
+        {
+          "id": "scavenger",
+          "name": "Падальщик",
+          "originalName": "Scavenger",
+          "armorLevel": 1,
+          "armorLabel": "Лёгкая",
+          "health": 40,
+          "danger": "Низкая",
+          "durability": "Слабая",
+          "description": "Мелкий разведчик-падальщик. Опасен только в стае — сигнализирует о Helldivers более крупным сородичам.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/2e/Scavenger.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Scavenger",
+          "durabilityPercent": 0.2
+        },
+        {
+          "id": "hunter",
+          "name": "Охотник",
+          "originalName": "Hunter",
+          "armorLevel": 1,
+          "armorLabel": "Лёгкая",
+          "health": 125,
+          "danger": "Средняя",
+          "durability": "Слабая",
+          "description": "Быстрый прыгучий хищник. Атакует скачками, замедляет десантника ядовитой слюной.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/b/b8/Hunter.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Hunter",
+          "durabilityPercent": 0.2
+        },
+        {
+          "id": "warrior",
+          "name": "Воин",
+          "originalName": "Warrior",
+          "armorLevel": 2,
+          "armorLabel": "Средняя",
+          "health": 250,
+          "danger": "Средняя",
+          "durability": "Средняя",
+          "description": "Базовый штурмовой Терминид. Двигается стаями, давит числом.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/d/db/Warrior.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Warrior_(Helldivers_2)",
+          "durabilityPercent": 0.45
+        },
+        {
+          "id": "charger",
+          "name": "Бронебык",
+          "originalName": "Charger",
+          "armorLevel": 4,
+          "armorLabel": "Танковая",
+          "health": 2500,
+          "danger": "Высокая",
+          "durability": "Очень высокая",
+          "description": "Тяжёлый броненосец с массивной лобовой пластиной. Несётся напролом и опрокидывает любую цель.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/27/Charger.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Charger",
+          "durabilityPercent": 0.8
+        },
+        {
+          "id": "bile-titan",
+          "name": "Желчный Титан",
+          "originalName": "Bile Titan",
+          "armorLevel": 4,
+          "armorLabel": "Танковая",
+          "health": 8000,
+          "danger": "Критическая",
+          "durability": "Экстремальная",
+          "description": "Колоссальный Терминид-биотанкер. Извергает токсичную желчь на дальние дистанции. Цель приоритета №1.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/8/87/Bile_Titan.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Bile_Titan",
+          "durabilityPercent": 0.9
+        }
+      ]
+    },
+    "automatons": {
+      "label": "Автоматоны",
+      "originalName": "Automatons",
+      "description": "Восставшие военные машины, наследники Киборгов Первой Галактической Войны. Используют огнестрельное оружие, ракеты и тяжёлую броню.",
+      "icon": "factions/automatons.png",
+      "sourceUrl": "https://helldivers.fandom.com/wiki/Automatons",
+      "enemies": [
+        {
+          "id": "trooper",
+          "name": "Пехотинец",
+          "originalName": "Trooper",
+          "armorLevel": 1,
+          "armorLabel": "Лёгкая",
+          "health": 100,
+          "danger": "Низкая",
+          "durability": "Слабая",
+          "description": "Базовый солдат-автоматон. Вооружён лазерной винтовкой. Опасен только в составе отделения.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/8/8b/Trooper.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Trooper",
+          "durabilityPercent": 0.2
+        },
+        {
+          "id": "devastator",
+          "name": "Опустошитель",
+          "originalName": "Devastator",
+          "armorLevel": 2,
+          "armorLabel": "Средняя",
+          "health": 350,
+          "danger": "Средняя",
+          "durability": "Средняя",
+          "description": "Усиленный солдат с тяжёлой бронёй и крупнокалиберным оружием. Существуют варианты со щитом и ракетами.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/4/4a/Devastator.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Devastator",
+          "durabilityPercent": 0.45
+        },
+        {
+          "id": "berserker",
+          "name": "Берсеркер",
+          "originalName": "Berserker",
+          "armorLevel": 2,
+          "armorLabel": "Средняя",
+          "health": 500,
+          "danger": "Средняя",
+          "durability": "Средняя",
+          "description": "Машина ближнего боя с цепными пилами вместо рук. Бежит к цели не останавливаясь.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/3/3e/Berserker.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Berserker",
+          "durabilityPercent": 0.45
+        },
+        {
+          "id": "hulk",
+          "name": "Громила",
+          "originalName": "Hulk",
+          "armorLevel": 3,
+          "armorLabel": "Тяжёлая",
+          "health": 1500,
+          "danger": "Высокая",
+          "durability": "Высокая",
+          "description": "Двуногий ударный шагоход с минипушкой или огнемётом. Сердечник реактора — открытая уязвимость сзади.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/0/0d/Hulk.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Hulk",
+          "durabilityPercent": 0.7
+        },
+        {
+          "id": "tank",
+          "name": "Танк",
+          "originalName": "Tank",
+          "armorLevel": 4,
+          "armorLabel": "Танковая",
+          "health": 4000,
+          "danger": "Критическая",
+          "durability": "Экстремальная",
+          "description": "Гусеничный тяжёлый танк с башенной 120-мм пушкой. Уязвим только в вентиляционной решётке сзади.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/0/06/Tank.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Tank",
+          "durabilityPercent": 0.9
+        }
+      ]
+    },
+    "illuminate": {
+      "label": "Просветлённые",
+      "originalName": "Illuminate",
+      "description": "Высокоразвитая инопланетная цивилизация, использующая щиты, телепортацию и плазму. Вернулись после длительного отсутствия из Первой Галактической Войны.",
+      "icon": "factions/illuminate.png",
+      "sourceUrl": "https://helldivers.fandom.com/wiki/Illuminate",
+      "enemies": [
+        {
+          "id": "voteless",
+          "name": "Безголосый",
+          "originalName": "Voteless",
+          "armorLevel": 1,
+          "armorLabel": "Лёгкая",
+          "health": 60,
+          "danger": "Низкая",
+          "durability": "Слабая",
+          "description": "Зомбированный гражданин, лишённый права голоса просветлёнными. Атакует только врукопашную.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/5/55/Voteless.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Voteless",
+          "durabilityPercent": 0.2
+        },
+        {
+          "id": "elevated-overseer",
+          "name": "Летающий Надзиратель",
+          "originalName": "Elevated Overseer",
+          "armorLevel": 2,
+          "armorLabel": "Средняя",
+          "health": 400,
+          "danger": "Средняя",
+          "durability": "Средняя",
+          "description": "Левитирующий боевой страж с плазменным оружием и личным щитом. Командует отрядами Безголосых с воздуха.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/22/Overseer.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Elevated_Overseer",
+          "durabilityPercent": 0.45
+        },
+        {
+          "id": "overseer",
+          "name": "Надзиратель",
+          "originalName": "Overseer",
+          "armorLevel": 2,
+          "armorLabel": "Средняя",
+          "health": 420,
+          "danger": "Средняя",
+          "durability": "Средняя",
+          "durabilityPercent": 0.45,
+          "description": "Ужасающий боец с навыками ближнего боя, вооруженный плазменным копьем и энергетическим щитом.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/22/Overseer.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Overseer"
+        },
+        {
+          "id": "harvester",
+          "name": "Жнец",
+          "originalName": "Harvester",
+          "armorLevel": 3,
+          "armorLabel": "Тяжёлая",
+          "health": 2500,
+          "danger": "Высокая",
+          "durability": "Высокая",
+          "description": "Трёхногий боевой шагоход Просветлённых с лазерным лучом и многослойным щитом.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/0/0c/Harvester.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Harvester",
+          "durabilityPercent": 0.7
+        },
+        {
+          "id": "leviathan",
+          "name": "Левиафан",
+          "originalName": "Leviathan",
+          "armorLevel": 4,
+          "armorLabel": "Танковая",
+          "health": 6500,
+          "danger": "Критическая",
+          "durability": "Экстремальная",
+          "description": "Крайне опасная биомеханическая машина, нарушающая демократический образ жизни с небес бомбардировкой и лазерными пушками",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/0/03/Leviathan.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Leviathan",
+          "durabilityPercent": 0.9
+        }
+      ]
+    }
+  }
+}

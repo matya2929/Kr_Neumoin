@@ -1,0 +1,141 @@
+{
+  "source": "Helldivers Wiki / Fandom",
+  "sourceUrl": "https://helldivers.fandom.com/wiki/Armor_(Helldivers_2)",
+  "categories": {
+    "light": {
+      "label": "Лёгкая броня",
+      "description": "Высокая скорость и быстрая регенерация выносливости ценой защищённости. Подходит для скаутов и стрелков на дистанции.",
+      "items": [
+        {
+          "id": "ca-22-prospector",
+          "name": "CA-22 Старатель",
+          "originalName": "CA-22 Prospector",
+          "armorRating": 64,
+          "speed": 550,
+          "staminaRegen": 125,
+          "passive": "Инженерная экипировка",
+          "passiveDescription": "Снижает отдачу на 30% и увеличивает запас гранат на +2.",
+          "description": "Лёгкий комбинезон геолога с укреплёнными вставками. Создан для разведки опасных секторов.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/8/8e/CA-22_Prospector.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/CA-22_Prospector"
+        },
+        {
+          "id": "sc-30-trailblazer-scout",
+          "name": "SC-30 Первопроходец",
+          "originalName": "SC-30 Trailblazer Scout",
+          "armorRating": 79,
+          "speed": 521,
+          "staminaRegen": 118,
+          "passive": "Разведчик",
+          "passiveDescription": "Снижает радиус обнаружения врагами на 30%. Маркеры миникарты пингуют врагов каждые 2 секунды.",
+          "description": "Тактический костюм разведчика с маскировочными модулями. Идеален для скрытных операций.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/2c/SC-30_Trailblazer_Scout.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/SC-30_Trailblazer_Scout"
+        },
+        {
+          "id": "sc-37-legionnaire",
+          "name": "SC-37 Легионер",
+          "originalName": "SC-37 Legionnaire",
+          "armorRating": 70,
+          "speed": 536,
+          "staminaRegen": 121,
+          "passive": "Разведчик",
+          "passiveDescription": "Снижает радиус обнаружения врагами на 30%. Маркеры миникарты пингуют врагов каждые 2 секунды.",
+          "description": "Облегчённая боевая броня для скоростных рейдов и фланговых атак.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/9/9c/SC-37_Legionnaire.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/SC-37_Legionnaire"
+        }
+      ]
+    },
+    "medium": {
+      "label": "Средняя броня",
+      "description": "Сбалансированный комплект защиты и подвижности. Универсальный выбор адского десантника.",
+      "items": [
+        {
+          "id": "b-01-tactical",
+          "name": "B-01 Тактический",
+          "originalName": "B-01 Tactical",
+          "armorRating": 100,
+          "speed": 500,
+          "staminaRegen": 100,
+          "passive": "Экстренная аптечка",
+          "passiveDescription": "Стимуляторы дают +2 секунды эффекта и максимальное здоровье временно увеличивается на 20%.",
+          "description": "Стандартная боевая броня Адских Десантников. Надёжность, проверенная Управляемой Демократией.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/0/0a/B-01_Tactical.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/B-01_Tactical"
+        },
+        {
+          "id": "m-25-precision-engineer",
+          "name": "M-25 Инженер-Стрелок",
+          "originalName": "M-25 Precision Engineer",
+          "armorRating": 100,
+          "speed": 500,
+          "staminaRegen": 100,
+          "passive": "Инженерная экипировка",
+          "passiveDescription": "Снижает отдачу на 30% и увеличивает запас гранат на +2.",
+          "description": "Конструкторский набор для оперативного развёртывания тяжёлых стратагем.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/22/M-25_Precision_Engineer.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/M-25_Precision_Engineer"
+        },
+        {
+          "id": "cm-09-bonesnapper",
+          "name": "CM-09 Костолом",
+          "originalName": "CM-09 Bonesnapper",
+          "armorRating": 109,
+          "speed": 471,
+          "staminaRegen": 92,
+          "passive": "Расфасованный взрывотехник",
+          "passiveDescription": "Сопротивление взрывному урону +50%. Запас гранат +2.",
+          "description": "Усиленная броня сапёра с противоосколочными вставками.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/4/4f/CM-09_Bonesnapper.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/CM-09_Bonesnapper"
+        }
+      ]
+    },
+    "heavy": {
+      "label": "Тяжёлая броня",
+      "description": "Максимальная защищённость ценой скорости и регенерации выносливости. Идёт первым в самое пекло.",
+      "items": [
+        {
+          "id": "ch-9-bonesnapper",
+          "name": "CH-9 Костолом Тяжёлый",
+          "originalName": "CH-9 Bonesnapper (Heavy)",
+          "armorRating": 154,
+          "speed": 421,
+          "staminaRegen": 75,
+          "passive": "Расфасованный взрывотехник",
+          "passiveDescription": "Сопротивление взрывному урону +50%. Запас гранат +2.",
+          "description": "Тяжёлый штурмовой комплект с реактивной композитной бронёй.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/8/8c/CH-9_Bonesnapper.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/CH-9_Bonesnapper"
+        },
+        {
+          "id": "fs-23-battle-master",
+          "name": "FS-23 Боевой Мастер",
+          "originalName": "FS-23 Battle Master",
+          "armorRating": 150,
+          "speed": 450,
+          "staminaRegen": 75,
+          "passive": "Бронированный десантник",
+          "passiveDescription": "Снижает входящий урон на 50% при попадании в нагрудник.",
+          "description": "Тяжёлая броня для линейного пехотинца. Двойные керамические плиты.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/3/30/FS-23_Battle_Master.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/FS-23_Battle_Master"
+        },
+        {
+          "id": "ce-27-ground-breaker",
+          "name": "CE-27 Землероб",
+          "originalName": "CE-27 Ground Breaker",
+          "armorRating": 129,
+          "speed": 450,
+          "staminaRegen": 83,
+          "passive": "Инженерная экипировка",
+          "passiveDescription": "Снижает отдачу на 30% и увеличивает запас гранат на +2.",
+          "description": "Тяжёлый штурмовой костюм с укреплёнными плечевыми пластинами.",
+          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/d/d5/CE-27_Ground_Breaker.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/CE-27_Ground_Breaker"
+        }
+      ]
+    }
+  }
+}

@@ -104,7 +104,7 @@
         },
         {
           "id": "devastator",
-          "name": "Опустошитель",
+          "name": "Разрушитель",
           "originalName": "Devastator",
           "armorLevel": 2,
           "armorLabel": "Средняя",
@@ -118,7 +118,7 @@
         },
         {
           "id": "berserker",
-          "name": "Берсеркер",
+          "name": "Берсерк",
           "originalName": "Berserker",
           "armorLevel": 2,
           "armorLabel": "Средняя",

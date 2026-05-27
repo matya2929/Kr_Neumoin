@@ -47,7 +47,7 @@
           "danger": "Средняя",
           "durability": "Средняя",
           "description": "Базовый штурмовой Терминид. Двигается стаями, давит числом.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/d/db/Warrior.png",
+          "image": "dist/assets/Warrior_Enemy_Icon.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Warrior_(Helldivers_2)",
           "durabilityPercent": 0.45
         },
@@ -98,7 +98,7 @@
           "danger": "Низкая",
           "durability": "Слабая",
           "description": "Базовый солдат-автоматон. Вооружён лазерной винтовкой. Опасен только в составе отделения.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/8/8b/Trooper.png",
+          "image": "dist/assets/Trooper_Raider_Enemy_Icon.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Trooper",
           "durabilityPercent": 0.2
         },
@@ -126,7 +126,7 @@
           "danger": "Средняя",
           "durability": "Средняя",
           "description": "Машина ближнего боя с цепными пилами вместо рук. Бежит к цели не останавливаясь.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/3/3e/Berserker.png",
+          "image": "dist/assets/Berserker_Enemy_Icon.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Berserker",
           "durabilityPercent": 0.45
         },

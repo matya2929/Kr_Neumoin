@@ -59,8 +59,12 @@ const draft = ref('')
 const error = ref('')
 const sending = ref(false)
 
+function sortMessagesNewestFirst(items) {
+  return [...items].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+}
+
 async function loadMessages() {
-  messages.value = await listMessages()
+  messages.value = sortMessagesNewestFirst(await listMessages())
 }
 
 async function submitMessage() {
@@ -73,7 +77,7 @@ async function submitMessage() {
     return
   }
   draft.value = ''
-  await loadMessages()
+  messages.value = sortMessagesNewestFirst([result.message, ...messages.value])
 }
 
 function formatDate(value) {

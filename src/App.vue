@@ -7,8 +7,7 @@
       @toggle-sidebar="sidebarOpen = !sidebarOpen"
       @logout="logout"
     />
-
-    <GlobalAudio v-show="isMainPage" />
+    <GlobalAudio />
 
     <div class="layout">
       <SidebarMenu :open="sidebarOpen" @close="sidebarOpen = false" />
@@ -47,7 +46,6 @@ const user = ref(null)
 const USER_SESSION_KEY = 'helldivers_current_user'
 
 const currentTitle = computed(() => route.meta?.title || 'Helldivers 2')
-const isMainPage = computed(() => route.path === '/')
 
 function openAuth() {
   authOpen.value = true

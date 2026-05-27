@@ -32,7 +32,7 @@
     </section>
 
     <section class="messages">
-      <article v-for="message in messages" :key="message.id" class="message card">
+      <article v-for="message in displayedMessages" :key="message.id" class="message card">
         <header>
           <div>
             <div class="nickname">{{ message.nickname }}</div>
@@ -47,7 +47,7 @@
 </template>
 
 <script setup>
-import { ref, onMounted } from 'vue'
+import { computed, ref, onMounted } from 'vue'
 import { listMessages, sendMessage } from '../services/api.js'
 
 const props = defineProps({
@@ -59,9 +59,31 @@ const draft = ref('')
 const error = ref('')
 const sending = ref(false)
 
-function sortMessagesNewestFirst(items) {
-  return [...items].sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+function isMinistryMessage(message) {
+  return message.nickname === 'Министерство Связи'
 }
+
+function sortMessagesNewestFirst(items) {
+  return [...items].sort((a, b) => {
+    const aIsMinistry = isMinistryMessage(a)
+    const bIsMinistry = isMinistryMessage(b)
+
+    if (aIsMinistry && !bIsMinistry) return 1
+    if (!aIsMinistry && bIsMinistry) return -1
+
+    const timeA = new Date(a.createdAt).getTime()
+    const timeB = new Date(b.createdAt).getTime()
+    const safeTimeA = Number.isFinite(timeA) ? timeA : 0
+    const safeTimeB = Number.isFinite(timeB) ? timeB : 0
+    const timeDiff = safeTimeB - safeTimeA
+
+    if (timeDiff !== 0) return timeDiff
+
+    return Number(b.id || 0) - Number(a.id || 0)
+  })
+}
+
+const displayedMessages = computed(() => sortMessagesNewestFirst(messages.value))
 
 async function loadMessages() {
   messages.value = sortMessagesNewestFirst(await listMessages())
@@ -72,17 +94,21 @@ async function submitMessage() {
   sending.value = true
   const result = await sendMessage({ user: props.user, text: draft.value })
   sending.value = false
+
   if (!result.ok) {
     error.value = result.error
     return
   }
+
   draft.value = ''
-  messages.value = sortMessagesNewestFirst([result.message, ...messages.value])
+  messages.value = [result.message, ...messages.value]
 }
 
 function formatDate(value) {
   const date = new Date(value)
+
   if (Number.isNaN(date.getTime())) return value
+
   return date.toLocaleString('ru-RU', {
     day: '2-digit',
     month: '2-digit',

@@ -19,7 +19,7 @@
           "danger": "Низкая",
           "durability": "Слабая",
           "description": "Мелкий разведчик-падальщик. Опасен только в стае — сигнализирует о Helldivers более крупным сородичам.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/2e/Scavenger.png",
+          "image": "dist/assets/Scavenger.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Scavenger",
           "durabilityPercent": 0.2
         },
@@ -112,7 +112,7 @@
           "danger": "Средняя",
           "durability": "Средняя",
           "description": "Усиленный солдат с тяжёлой бронёй и крупнокалиберным оружием. Существуют варианты со щитом и ракетами.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/4/4a/Devastator.png",
+          "image": "dist/assets/Devastator_Enemy_Icon.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Devastator",
           "durabilityPercent": 0.45
         },
@@ -140,7 +140,7 @@
           "danger": "Высокая",
           "durability": "Высокая",
           "description": "Двуногий ударный шагоход с минипушкой или огнемётом. Сердечник реактора — открытая уязвимость сзади.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/0/0d/Hulk.png",
+          "image": "dist/assets/Hulk_Enemy_Icon.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Hulk",
           "durabilityPercent": 0.7
         },
@@ -154,7 +154,7 @@
           "danger": "Критическая",
           "durability": "Экстремальная",
           "description": "Гусеничный тяжёлый танк с башенной 120-мм пушкой. Уязвим только в вентиляционной решётке сзади.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/0/06/Tank.png",
+          "image": "dist/assets/tank.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Tank",
           "durabilityPercent": 0.9
         }
@@ -168,6 +168,20 @@
       "sourceUrl": "https://helldivers.fandom.com/wiki/Illuminate",
       "enemies": [
         {
+          "id": "watcher",
+          "name": "Наблюдатель",
+          "originalName": "Watcher",
+          "armorLevel": 1,
+          "armorLabel": "Лёгкая",
+          "health": 100,
+          "danger": "Низкая",
+          "durability": "Слабая",
+          "description": "Летающий дрон, рыщущий в поисках жертв. Вызывает подкрепление при обнаружении и бьет током на близком расстоянии.",
+          "image": "dist/assets/Watcher_Enemy_Icon.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Voteless",
+          "durabilityPercent": 0.2
+        },
+        {
           "id": "voteless",
           "name": "Безголосый",
           "originalName": "Voteless",
@@ -177,7 +191,7 @@
           "danger": "Низкая",
           "durability": "Слабая",
           "description": "Зомбированный гражданин, лишённый права голоса просветлёнными. Атакует только врукопашную.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/5/55/Voteless.png",
+          "image": "dist/assets/Voteless_Enemy_Icon.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Voteless",
           "durabilityPercent": 0.2
         },
@@ -191,7 +205,7 @@
           "danger": "Средняя",
           "durability": "Средняя",
           "description": "Левитирующий боевой страж с плазменным оружием и личным щитом. Командует отрядами Безголосых с воздуха.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/22/Overseer.png",
+          "image": "dist/assets/elevated overseer.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Elevated_Overseer",
           "durabilityPercent": 0.45
         },
@@ -206,7 +220,7 @@
           "durability": "Средняя",
           "durabilityPercent": 0.45,
           "description": "Ужасающий боец с навыками ближнего боя, вооруженный плазменным копьем и энергетическим щитом.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/22/Overseer.png",
+          "image": "dist/assets/Overseer_Enemy_Icon.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Overseer"
         },
         {
@@ -219,9 +233,23 @@
           "danger": "Высокая",
           "durability": "Высокая",
           "description": "Трёхногий боевой шагоход Просветлённых с лазерным лучом и многослойным щитом.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/0/0c/Harvester.png",
+          "image": "dist/assets/1200px-Harvester_Enemy_Icon.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Harvester",
           "durabilityPercent": 0.7
+        },
+        {
+          "id": "stingray",
+          "name": "Скат",
+          "originalName": "Stingray",
+          "armorLevel": 3,
+          "armorLabel": "Средняя",
+          "health": 1000,
+          "danger": "Высокая",
+          "durability": "Средняя",
+          "description": "Автономный истребитель просветленных, заходяий на обстрелы плазмой по прямой линии.",
+          "image": "dist/assets/Stingray.png",
+          "sourceUrl": "https://helldivers.fandom.com/wiki/Harvester",
+          "durabilityPercent": 0.5
         },
         {
           "id": "leviathan",
@@ -232,8 +260,8 @@
           "health": 6500,
           "danger": "Критическая",
           "durability": "Экстремальная",
-          "description": "Крайне опасная биомеханическая машина, нарушающая демократический образ жизни с небес бомбардировкой и лазерными пушками",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/0/03/Leviathan.png",
+          "description": "Крайне опасная биомеханическая машина, нарушающая демократический образ жизни с небес бомбардировкой и лазерными пушками.",
+          "image": "dist/assets/Leviathan.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Leviathan",
           "durabilityPercent": 0.9
         }

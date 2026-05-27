@@ -61,7 +61,7 @@
           "danger": "Высокая",
           "durability": "Очень высокая",
           "description": "Тяжёлый броненосец с массивной лобовой пластиной. Несётся напролом и опрокидывает любую цель.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/27/Charger.png",
+          "image": "dist/assets/Charger.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Charger",
           "durabilityPercent": 0.8
         },

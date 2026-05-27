@@ -31,7 +31,7 @@
 </template>
 
 <script setup>
-import { ref, computed } from 'vue'
+import { ref, computed, onMounted } from 'vue'
 import { useRoute } from 'vue-router'
 import AppHeader from './components/AppHeader.vue'
 import SidebarMenu from './components/SidebarMenu.vue'
@@ -43,12 +43,39 @@ const route = useRoute()
 const sidebarOpen = ref(false)
 const authOpen = ref(false)
 const user = ref(null)
+const USER_SESSION_KEY = 'helldivers_current_user'
 
 const currentTitle = computed(() => route.meta?.title || 'Helldivers 2')
 
-function openAuth() { authOpen.value = true }
-function onAuthed(u) { user.value = u; authOpen.value = false }
-function logout() { user.value = null }
+function openAuth() {
+  authOpen.value = true
+}
+
+function onAuthed(u) {
+  user.value = u
+  authOpen.value = false
+
+  try {
+    localStorage.setItem(USER_SESSION_KEY, JSON.stringify(u))
+  } catch {}
+}
+
+function logout() {
+  user.value = null
+
+  try {
+    localStorage.removeItem(USER_SESSION_KEY)
+  } catch {}
+}
+
+onMounted(() => {
+  try {
+    const savedUser = localStorage.getItem(USER_SESSION_KEY)
+    if (savedUser) user.value = JSON.parse(savedUser)
+  } catch {
+    user.value = null
+  }
+})
 </script>
 
 <style scoped>
@@ -75,10 +102,9 @@ function logout() { user.value = null }
   .content { padding: 1.2rem; }
 }
 
-/* page transition */
 .page-enter-active, .page-leave-active {
   transition: opacity .25s ease, transform .25s ease;
 }
 .page-enter-from { opacity: 0; transform: translateY(8px); }
-.page-leave-to   { opacity: 0; transform: translateY(-8px); }
+.page-leave-to { opacity: 0; transform: translateY(-8px); }
 </style>

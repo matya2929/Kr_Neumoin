@@ -27,7 +27,7 @@
 </template>
 
 <script setup>
-import diverIcon from '../assets/ui/ikonka-daiverov.jpg'
+import diverIcon from '../assets/ui/ikonka-daiverov.png'
 defineProps({
   title: String,
   user: { type: Object, default: null }

@@ -75,7 +75,7 @@
           "danger": "Критическая",
           "durability": "Экстремальная",
           "description": "Колоссальный Терминид-биотанкер. Извергает токсичную желчь на дальние дистанции. Цель приоритета №1.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/8/87/Bile_Titan.png",
+          "image": "dist/assets/Bile_Titan_Enemy_Icon.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Bile_Titan",
           "durabilityPercent": 0.9
         }

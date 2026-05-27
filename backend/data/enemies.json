@@ -33,7 +33,7 @@
           "danger": "Средняя",
           "durability": "Слабая",
           "description": "Быстрый прыгучий хищник. Атакует скачками, замедляет десантника ядовитой слюной.",
-          "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/b/b8/Hunter.png",
+          "image": "dist/assets/Hunter_Enemy_Icon.png",
           "sourceUrl": "https://helldivers.fandom.com/wiki/Hunter",
           "durabilityPercent": 0.2
         },

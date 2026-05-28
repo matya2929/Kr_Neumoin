@@ -128,7 +128,7 @@
       "items": [
         {
           "id": "sg-225-breaker",
-          "name": "SG-225 Терминатор",
+          "name": "SG-225 Крушитель",
           "originalName": "SG-225 Breaker",
           "damage": 330,
           "durableDamage": 20,
@@ -164,7 +164,7 @@
         },
         {
           "id": "plas-1-scorcher",
-          "name": "PLAS-1 Палач",
+          "name": "PLAS-1 Поджигатель",
           "originalName": "PLAS-1 Scorcher",
           "damage": 100,
           "durableDamage": 65,

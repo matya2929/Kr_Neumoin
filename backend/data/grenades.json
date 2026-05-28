@@ -10,7 +10,7 @@
       "radius": 6,
       "detonationTime": 4,
       "specialTraits": ["Осколочный взрыв", "Стандартный таймер"],
-      "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/7/76/G-12_High_Explosive.png",
+      "image": "dist/assets/grenades/high_exp.png",
       "description": "Стандартная осколочно-фугасная граната. Универсальное решение для скоплений врага.",
       "sourceUrl": "https://helldivers.fandom.com/wiki/G-12_High_Explosive"
     },
@@ -46,7 +46,7 @@
       "radius": 4,
       "detonationTime": 3,
       "specialTraits": ["Огненная лужа", "Поджигает врагов"],
-      "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/9/9e/G-10_Incendiary.png",
+      "image": "dist/assets/grenades/incendiary.png",
       "description": "Зажигательная граната создаёт лужу горящего напалма. Эффективна против биологических врагов.",
       "sourceUrl": "https://helldivers.fandom.com/wiki/G-10_Incendiary"
     },
@@ -70,7 +70,7 @@
       "radius": 7,
       "detonationTime": 2,
       "specialTraits": ["Оглушение", "Без урона"],
-      "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/9/91/G-23_Stun.png",
+      "image": "dist/assets/grenades/stun.png",
       "description": "Электрошоковая граната. Парализует крупных врагов на несколько секунд.",
       "sourceUrl": "https://helldivers.fandom.com/wiki/G-23_Stun"
     }

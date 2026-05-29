@@ -1,13 +1,9 @@
-{
-  "source": "Helldivers Wiki / Fandom",
-  "sourceUrl": "https://helldivers.fandom.com/wiki/Enemies_(Helldivers_2)",
-  "factions": {
+{   "factions": {
     "terminids": {
       "label": "Терминиды",
       "originalName": "Terminids",
       "description": "Раса гигантских инсектоидов, сбежавших с ферм Элемента-710. Двигаются стаями, давят массой и ближним боем. Объявлены Супер-Землёй фашистской фракцией.",
       "icon": "factions/terminids.png",
-      "sourceUrl": "https://helldivers.fandom.com/wiki/Terminids",
       "enemies": [
         {
           "id": "scavenger",
@@ -20,7 +16,6 @@
           "durability": "Слабая",
           "description": "Мелкий разведчик-падальщик. Опасен только в стае — выпускает ферамоны, сигнализирующие о десантниках своим сородичам.",
           "image": "dist/assets/Scavenger.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Scavenger",
           "durabilityPercent": 0.2
         },
         {
@@ -34,7 +29,6 @@
           "durability": "Слабая",
           "description": "Быстрый прыгучий хищник. Атакует скачками, замедляет десантника ядовитой слюной.",
           "image": "dist/assets/Hunter_Enemy_Icon.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Hunter",
           "durabilityPercent": 0.2
         },
         {
@@ -48,7 +42,6 @@
           "durability": "Средняя",
           "description": "Базовый штурмовой Терминид. Двигается стаями, давит числом.",
           "image": "dist/assets/Warrior_Enemy_Icon.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Warrior_(Helldivers_2)",
           "durabilityPercent": 0.45
         },
         {
@@ -62,7 +55,6 @@
           "durability": "Очень высокая",
           "description": "Тяжёлый броненосец с массивной лобовой пластиной. Несётся напролом и опрокидывает любую цель.",
           "image": "dist/assets/Charger.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Charger",
           "durabilityPercent": 0.8
         },
         {
@@ -76,7 +68,6 @@
           "durability": "Экстремальная",
           "description": "Колоссальный Терминид-биотанкер. Извергает токсичную желчь на дальние дистанции. Цель приоритета №1.",
           "image": "dist/assets/Bile_Titan_Enemy_Icon.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Bile_Titan",
           "durabilityPercent": 0.9
         }
       ]
@@ -86,7 +77,6 @@
       "originalName": "Automatons",
       "description": "Восставшие военные машины, наследники Киборгов Первой Галактической Войны. Используют огнестрельное оружие, ракеты и тяжёлую броню.",
       "icon": "factions/automatons.png",
-      "sourceUrl": "https://helldivers.fandom.com/wiki/Automatons",
       "enemies": [
         {
           "id": "trooper",
@@ -99,7 +89,6 @@
           "durability": "Слабая",
           "description": "Базовый солдат-автоматон. Вооружён лазерной винтовкой. Опасен только в составе отделения.",
           "image": "dist/assets/Trooper_Raider_Enemy_Icon.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Trooper",
           "durabilityPercent": 0.2
         },
         {
@@ -113,7 +102,6 @@
           "durability": "Средняя",
           "description": "Усиленный солдат с тяжёлой бронёй и крупнокалиберным оружием. Существуют варианты со щитом и ракетами.",
           "image": "dist/assets/Devastator_Enemy_Icon.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Devastator",
           "durabilityPercent": 0.45
         },
         {
@@ -127,7 +115,6 @@
           "durability": "Средняя",
           "description": "Машина ближнего боя с цепными пилами вместо рук. Бежит к цели не останавливаясь.",
           "image": "dist/assets/Berserker_Enemy_Icon.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Berserker",
           "durabilityPercent": 0.45
         },
         {
@@ -141,7 +128,6 @@
           "durability": "Высокая",
           "description": "Двуногий ударный шагоход с минипушкой или огнемётом. Сердечник реактора — открытая уязвимость сзади.",
           "image": "dist/assets/Hulk_Enemy_Icon.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Hulk",
           "durabilityPercent": 0.7
         },
         {
@@ -155,7 +141,6 @@
           "durability": "Экстремальная",
           "description": "Гусеничный тяжёлый танк с башенной 120-мм пушкой. Уязвим только в вентиляционной решётке сзади.",
           "image": "dist/assets/tank.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Tank",
           "durabilityPercent": 0.9
         }
       ]
@@ -165,7 +150,6 @@
       "originalName": "Illuminate",
       "description": "Высокоразвитая инопланетная цивилизация, использующая щиты, телепортацию и плазму. Вернулись после длительного отсутствия из Первой Галактической Войны.",
       "icon": "factions/illuminate.png",
-      "sourceUrl": "https://helldivers.fandom.com/wiki/Illuminate",
       "enemies": [
         {
           "id": "watcher",
@@ -178,7 +162,6 @@
           "durability": "Слабая",
           "description": "Летающий дрон, рыщущий в поисках жертв. Вызывает подкрепление при обнаружении и бьет током на близком расстоянии.",
           "image": "dist/assets/Watcher_Enemy_Icon.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Voteless",
           "durabilityPercent": 0.2
         },
         {
@@ -192,7 +175,6 @@
           "durability": "Слабая",
           "description": "Зомбированный гражданин, лишённый права голоса просветлёнными. Атакует только врукопашную.",
           "image": "dist/assets/Voteless_Enemy_Icon.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Voteless",
           "durabilityPercent": 0.2
         },
         {
@@ -206,7 +188,6 @@
           "durability": "Средняя",
           "description": "Левитирующий боевой страж с плазменным оружием и личным щитом. Командует отрядами Безголосых с воздуха.",
           "image": "dist/assets/elevated overseer.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Elevated_Overseer",
           "durabilityPercent": 0.45
         },
         {
@@ -221,7 +202,6 @@
           "durabilityPercent": 0.45,
           "description": "Ужасающий боец с навыками ближнего боя, вооруженный плазменным копьем и энергетическим щитом.",
           "image": "dist/assets/Overseer_Enemy_Icon.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Overseer"
         },
         {
           "id": "harvester",
@@ -234,7 +214,6 @@
           "durability": "Высокая",
           "description": "Трёхногий боевой шагоход Просветлённых с лазерным лучом и многослойным щитом.",
           "image": "dist/assets/1200px-Harvester_Enemy_Icon.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Harvester",
           "durabilityPercent": 0.7
         },
         {
@@ -248,7 +227,6 @@
           "durability": "Средняя",
           "description": "Автономный истребитель просветленных, заходяий на обстрелы плазмой по прямой линии.",
           "image": "dist/assets/Stingray.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Harvester",
           "durabilityPercent": 0.5
         },
         {
@@ -262,7 +240,6 @@
           "durability": "Экстремальная",
           "description": "Крайне опасная биомеханическая машина, нарушающая демократический образ жизни с небес бомбардировкой и лазерными пушками.",
           "image": "dist/assets/Leviathan.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/Leviathan",
           "durabilityPercent": 0.9
         }
       ]

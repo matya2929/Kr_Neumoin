@@ -1,6 +1,4 @@
 {
-  "source": "Helldivers Wiki / Fandom",
-  "sourceUrl": "https://helldivers.fandom.com/wiki/Category:Grenades_(Helldivers_2)",
   "items": [
     {
       "id": "g-12-high-explosive",
@@ -12,7 +10,6 @@
       "specialTraits": ["Осколочный взрыв", "Стандартный таймер"],
       "image": "dist/assets/grenades/high_exp.png",
       "description": "Стандартная осколочно-фугасная граната. Универсальное решение для скоплений врага.",
-      "sourceUrl": "https://helldivers.fandom.com/wiki/G-12_High_Explosive"
     },
     {
       "id": "g-6-frag",
@@ -24,7 +21,6 @@
       "specialTraits": ["Осколки", "Лёгкая"],
       "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/25/G-6_Frag.png",
       "description": "Лёгкая осколочная граната с широким полем поражения по пехоте.",
-      "sourceUrl": "https://helldivers.fandom.com/wiki/G-6_Frag"
     },
     {
       "id": "g-16-impact",
@@ -36,7 +32,6 @@
       "specialTraits": ["Мгновенный взрыв при ударе", "Без таймера"],
       "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/d/d6/G-16_Impact.png",
       "description": "Ударная граната — взрывается при первом контакте. Без задержки таймера.",
-      "sourceUrl": "https://helldivers.fandom.com/wiki/G-16_Impact"
     },
     {
       "id": "g-10-incendiary",
@@ -48,7 +43,6 @@
       "specialTraits": ["Огненная лужа", "Поджигает врагов"],
       "image": "dist/assets/grenades/incendiary.png",
       "description": "Зажигательная граната создаёт лужу горящего напалма. Эффективна против биологических врагов.",
-      "sourceUrl": "https://helldivers.fandom.com/wiki/G-10_Incendiary"
     },
     {
       "id": "g-3-smoke",
@@ -60,7 +54,6 @@
       "specialTraits": ["Дымовая завеса", "Без урона"],
       "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/3/35/G-3_Smoke.png",
       "description": "Создаёт плотную дымовую завесу. Незаменима для тактических отступлений и скрытных манёвров.",
-      "sourceUrl": "https://helldivers.fandom.com/wiki/G-3_Smoke"
     },
     {
       "id": "g-23-stun",
@@ -72,7 +65,6 @@
       "specialTraits": ["Оглушение", "Без урона"],
       "image": "dist/assets/grenades/stun.png",
       "description": "Электрошоковая граната. Парализует крупных врагов на несколько секунд.",
-      "sourceUrl": "https://helldivers.fandom.com/wiki/G-23_Stun"
     }
   ]
 }

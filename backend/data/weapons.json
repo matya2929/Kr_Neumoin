@@ -110,7 +110,7 @@
           "armorPenetrationLevel": 3,
           "specialTraits": ["Затворная перезарядка", "Штык-нож"],
           "description": "Церемониальная болт-винтовка. Символ свободы и реликвия пехоты Супер-Земли.",
-          "image": "dist/assets/constitution.png","
+          "image": "dist/assets/constitution.png"
         }
       ]
     },

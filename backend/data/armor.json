@@ -1,6 +1,4 @@
 {
-  "source": "Helldivers Wiki / Fandom",
-  "sourceUrl": "https://helldivers.fandom.com/wiki/Armor_(Helldivers_2)",
   "categories": {
     "light": {
       "label": "Лёгкая броня",
@@ -17,7 +15,6 @@
           "passiveDescription": "Снижает отдачу на 30% и увеличивает запас гранат на +2.",
           "description": "Лёгкий комбинезон геолога с укреплёнными вставками. Создан для разведки опасных секторов.",
           "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/8/8e/CA-22_Prospector.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/CA-22_Prospector"
         },
         {
           "id": "sc-30-trailblazer-scout",
@@ -30,7 +27,6 @@
           "passiveDescription": "Снижает радиус обнаружения врагами на 30%. Маркеры миникарты пингуют врагов каждые 2 секунды.",
           "description": "Тактический костюм разведчика с маскировочными модулями. Идеален для скрытных операций.",
           "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/2c/SC-30_Trailblazer_Scout.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/SC-30_Trailblazer_Scout"
         },
         {
           "id": "sc-37-legionnaire",
@@ -43,7 +39,6 @@
           "passiveDescription": "Снижает радиус обнаружения врагами на 30%. Маркеры миникарты пингуют врагов каждые 2 секунды.",
           "description": "Облегчённая боевая броня для скоростных рейдов и фланговых атак.",
           "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/9/9c/SC-37_Legionnaire.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/SC-37_Legionnaire"
         }
       ]
     },
@@ -62,7 +57,6 @@
           "passiveDescription": "Стимуляторы дают +2 секунды эффекта и максимальное здоровье временно увеличивается на 20%.",
           "description": "Стандартная боевая броня Адских Десантников. Надёжность, проверенная Управляемой Демократией.",
           "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/0/0a/B-01_Tactical.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/B-01_Tactical"
         },
         {
           "id": "m-25-precision-engineer",
@@ -75,7 +69,6 @@
           "passiveDescription": "Снижает отдачу на 30% и увеличивает запас гранат на +2.",
           "description": "Конструкторский набор для оперативного развёртывания тяжёлых стратагем.",
           "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/2/22/M-25_Precision_Engineer.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/M-25_Precision_Engineer"
         },
         {
           "id": "cm-09-bonesnapper",
@@ -88,7 +81,6 @@
           "passiveDescription": "Сопротивление взрывному урону +50%. Запас гранат +2.",
           "description": "Усиленная броня сапёра с противоосколочными вставками.",
           "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/4/4f/CM-09_Bonesnapper.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/CM-09_Bonesnapper"
         }
       ]
     },
@@ -107,7 +99,6 @@
           "passiveDescription": "Сопротивление взрывному урону +50%. Запас гранат +2.",
           "description": "Тяжёлый штурмовой комплект с реактивной композитной бронёй.",
           "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/8/8c/CH-9_Bonesnapper.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/CH-9_Bonesnapper"
         },
         {
           "id": "fs-23-battle-master",
@@ -120,7 +111,6 @@
           "passiveDescription": "Снижает входящий урон на 50% при попадании в нагрудник.",
           "description": "Тяжёлая броня для линейного пехотинца. Двойные керамические плиты.",
           "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/3/30/FS-23_Battle_Master.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/FS-23_Battle_Master"
         },
         {
           "id": "ce-27-ground-breaker",
@@ -133,7 +123,6 @@
           "passiveDescription": "Снижает отдачу на 30% и увеличивает запас гранат на +2.",
           "description": "Тяжёлый штурмовой костюм с укреплёнными плечевыми пластинами.",
           "image": "https://static.wikia.nocookie.net/helldivers_gamepedia_en/images/d/d5/CE-27_Ground_Breaker.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/CE-27_Ground_Breaker"
         }
       ]
     }

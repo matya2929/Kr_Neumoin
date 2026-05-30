@@ -1,6 +1,4 @@
 {
-  "source": "Helldivers Wiki / Fandom",
-  "sourceUrl": "https://helldivers.fandom.com/wiki/Category:Weapons_(Helldivers_2)",
   "categories": {
     "assaultRifles": {
       "label": "Штурмовые винтовки",
@@ -22,7 +20,6 @@
           "specialTraits": ["Фонарь", "Регулируемый прицел"],
           "image": "dist/assets/Liber.png",
           "description": "Стандартная штурмовая винтовка Адских Десантников. Универсальное оружие средней мощности с большим боекомплектом.",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/AR-23_Liberator"
         },
         {
           "id": "ar-23p-liberator-penetrator",
@@ -40,7 +37,6 @@
           "specialTraits": ["Бронебойные патроны", "Марксманский прицел"],
           "image": "dist/assets/lib_pen.png",
           "description": "Модификация Освободителя с бронебойным боеприпасом и удлинённым стволом. Эффективна против средней брони Автоматонов.",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/AR-23P_Liberator_Penetrator"
         },
         {
           "id": "ar-61-tenderizer",
@@ -58,7 +54,6 @@
           "specialTraits": ["Высокая мощность", "Регулируемая скорострельность"],
           "image": "dist/assets/tend.png",
           "description": "Мощная штурмовая винтовка с увеличенным урон по единичной цели. Боекомплект меньше — отдача выше.",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/AR-61_Tenderizer"
         }
       ]
     },
@@ -82,7 +77,6 @@
           "specialTraits": ["Прицельный огонь"],
           "image": "dist/assets/diligence.png",
           "description": "Базовая марксманская винтовка. Точные одиночные выстрелы на дальних дистанциях.",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/R-63_Diligence"
         },
         {
           "id": "r-63cs-diligence-counter-sniper",
@@ -100,7 +94,6 @@
           "specialTraits": ["Снайперский прицел", "Высокая скорость полета пули"],
           "image": "dist/assets/dil_cs.png",
           "description": "Утяжелённая версия Усердия для контрснайперской работы. Уверенно пробивает среднюю броню.",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/R-63CS_Diligence_Counter_Sniper"
         },
         {
           "id": "r-2124-constitution",
@@ -117,8 +110,7 @@
           "armorPenetrationLevel": 3,
           "specialTraits": ["Затворная перезарядка", "Штык-нож"],
           "description": "Церемониальная болт-винтовка. Символ свободы и реликвия пехоты Супер-Земли.",
-          "image": "dist/assets/constitution.png",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/R-2124_Constitution"
+          "image": "dist/assets/constitution.png","
         }
       ]
     },
@@ -142,7 +134,6 @@
           "specialTraits": ["Картечь", "Полуавтомат"],
           "image": "dist/assets/break.png",
           "description": "Полуавтоматический штурмовой дробовик. Опустошает близкие группы целей.",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/SG-225_Breaker"
         },
         {
           "id": "las-17-double-edge-sickle",
@@ -160,7 +151,6 @@
           "specialTraits": ["Лазерный", "Самонагрев"],
           "image": "dist/assets/d-e_sickle.png",
           "description": "Экспериментальный лазерный карабин. Жжёт владельца при перегреве — символ настоящей жертвы за Демократию.",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/LAS-17_Double-Edge_Sickle"
         },
         {
           "id": "plas-1-scorcher",
@@ -178,7 +168,6 @@
           "specialTraits": ["Плазменный снаряд", "Взрывной урон по площади"],
           "image": "dist/assets/scorcher.png",
           "description": "Плазменная винтовка с разрывными снарядами. Поражает несколько целей одним попаданием.",
-          "sourceUrl": "https://helldivers.fandom.com/wiki/PLAS-1_Scorcher"
         }
       ]
     }
